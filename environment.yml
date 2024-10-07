@@ -1,0 +1,29 @@
+name: data_science_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - jupyterlab
+  - notebook
+  - ipython
+  - sympy
+  - pip
+  - pip:
+      - xgboost
+      - lightgbm
+      - catboost
+      - tensorflow
+      - keras
+      - nltk
+      - gensim
+      - spacy
+      - wordcloud
+
